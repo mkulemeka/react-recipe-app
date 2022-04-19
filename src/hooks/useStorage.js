@@ -5,7 +5,7 @@ const useStorage = (file) => {
   const [url, setURL] = useState(null);
 
   useEffect(() => {
-    const storageReference = firebaseStorage.ref(file.name);
+    const storageReference = //firebaseStorage.ref(file.name);
 
     storageReference.put(
       file.on(

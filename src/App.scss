@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Martel:wght@300;400;600&display=swap');
+:root {
+    //Colors
+    --bg-color: rgb(248,248,255);
+    --card-bg: #FFFFFF;
+    --accent-color: #E91C16;
+    --accent-color2: #F55951; 
+    --accent-color-secondary: #E1B1AC;
+    --font-color: #13170C;
+    --shadow: #F0D5D3;
+
+    //Typography
+    --font-size: 16px;
+    --title-font: 'Dosis', sans-serif;
+    --body-font: 'Martel', serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+
+    &:hover {
+        color: var(--font-color);
+    }
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    
+
+    font-family: var(--body-font);
+    font-size: var(--font-size);
+    color: var(--font-color)
+}
